@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/bank_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TP Bank"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/message_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(TPBank): 09/10 24:07:55 GD:66V25062168674849398 Txxx"
+        android:textSize="14sp"
+        android:textColor="@color/gray"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SD: 100,654,345 VND"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ND: TNXCL181024DO01 Pham Ngoc Anh"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
